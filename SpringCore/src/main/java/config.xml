@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="https://www.springframework.org/schema/beans"
+xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+xmlns:p="http://www.springframework.org/schema/p"
+xsi:schemaLocation="http://www.springframework.org/schema/beans    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">    
+
+
+<bean name=" student " class="com.SpringCore.SpringCore.Student">
+<property name="sid">
+<value>101</value>
+</property>
+<property name="sname">
+<value>sagar singh </value>
+</property>
+<property name="saddress">
+<value>bhayli </value>
+</property>
+</bean>
+
+</beans>
